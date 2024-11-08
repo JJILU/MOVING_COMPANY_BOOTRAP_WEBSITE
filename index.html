@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+    .feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+      }
+  </style>
+</head>
+
+<body>
+<!--  BOOTSRAP COMPONENT 1: NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"> <img src="./assets/svg/box-seam.svg" alt="swiftmove brand icon" height="30" > SwiftMove</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Packing Services</a></li>
+            <li><a class="dropdown-item" href="#">Long-Distance Moves</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Office Moves</a></li>
+            <li><a class="dropdown-item" href="#">Loading Assistance</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Postcode" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Check</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<!-- HERO SECTION -->
+<div class="container col-xxl-8 px-4 py-5">
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6">
+      <img src="./assets/img/african-american-couple-with-cardboard-boxes.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+    </div>
+    <div class="col-lg-6">
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Fast & Reliable Moves</h1>
+      <p class="lead">SwiftMove Moving Company makes your move stress-free. We provide fast and reliable moving services at affordable rates. Our experienced team ensures your belongings are handled with care. Trust us to make your transition to a new home smooth and easy.</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Get a Quote</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact US</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FEATURES SECTION -->
+<div class="container px-4 py-5">
+  <h2 class="pb-2 border-bottom">SwiftMove Services</h2>
+
+  <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+    <div class="col d-flex flex-column align-items-start gap-2">
+      <h2 class="fw-bold text-body-emphasis">Professional Moving Services You Can Trust</h2>
+      <p class="text-body-secondary">SwiftMove offers reliable and efficient moving services, from local moves to cross-country relocations. Our team ensures your belongings are safely packed, transported, and unpacked with the utmost care.</p>
+      <a href="#" class="btn btn-primary btn-lg">Get a Free Quote</a>
+    </div>
+
+    <div class="col">
+      <div class="row row-cols-1 row-cols-sm-2 g-4">
+        <div class="col d-flex flex-column gap-2">
+          <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+           <img src="./assets/svg/briefcase.svg" alt="suitcase" height="30">
+          </div>
+          <h4 class="fw-semibold mb-0 text-body-emphasis">Packing & Unpacking</h4>
+          <p class="text-body-secondary">Our expert team handles all your packing and unpacking needs, ensuring items are secure and organized.</p>
+        </div>
+
+        <div class="col d-flex flex-column gap-2">
+          <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            <img src="./assets/svg/chat-square-heart.svg" alt="heart square icon" height="30">
+          </div>
+          <h4 class="fw-semibold mb-0 text-body-emphasis">Furniture Assembly</h4>
+          <p class="text-body-secondary">We disassemble and reassemble furniture to ensure safe transport and hassle-free setup in your new home.</p>
+        </div>
+
+        <div class="col d-flex flex-column gap-2">
+          <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+           <img src="./assets/svg/bus-front.svg" alt="front of bus" height="30">
+          </div>
+          <h4 class="fw-semibold mb-0 text-body-emphasis">Efficient Transport</h4>
+          <p class="text-body-secondary">Our fleet of modern, equipped trucks ensures quick and secure transport for all your belongings.</p>
+        </div>
+
+        <div class="col d-flex flex-column gap-2">
+          <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+           <img src="./assets/svg/storage.svg" alt="storage box" height="30">
+          </div>
+          <h4 class="fw-semibold mb-0 text-body-emphasis">Storage Solutions</h4>
+          <p class="text-body-secondary">Need temporary storage? We offer safe, climate-controlled storage options for your belongings.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CARASOUL -->
+<div class="container">
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/couple-with-cardboard-boxes.jpg" class="d-block w-100" alt="couple holding boxes">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Move with Ease</h5>
+          <p>SwiftMove offers hassle-free moving solutions, ensuring a smooth start to your new journey.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/happy-african-american-young-family-bought-new-house.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Family-Focused Service</h5>
+          <p>Our team takes care of your valuables so you can focus on what matters—your family.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/portrait-diverse-man-woman-posing-with-boxes-moving-day-unpacking-furniture-things-decorate-rented-apartment-flat-using-cargo-storage-settle-property-.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Start Fresh with SwiftMove</h5>
+          <p>From packing to transport, we handle every detail for a stress-free moving experience.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<!-- Divider -->
+<div class="container">
+  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"></div>
+</div>
+
+
+<!-- FOOTER -->
+<div class="container">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Company</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Our Services</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Testimonials</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Resources</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Blog</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Moving Tips</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Packing Guide</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Support</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Contact</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="tel:+1234567890" class="nav-link p-0 text-body-secondary">+260 (678) 567-890</a></li>
+          <li class="nav-item mb-2"><a href="mailto:support@swiftmove.com" class="nav-link p-0 text-body-secondary">support@swiftmove.com</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Find a Location</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Career Opportunities</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Stay updated with the latest moving tips, offers, and company news.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="email" class="form-control" placeholder="Enter your email">
+            <button class="btn btn-primary" type="submit">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© 2024 SwiftMove, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="https://twitter.com/SwiftMove"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="https://instagram.com/SwiftMove"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="https://facebook.com/SwiftMove"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
